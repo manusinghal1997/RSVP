@@ -1,0 +1,61 @@
+
+@media only screen and (max-width: 768px)
+.footer-social a i {
+    font-size: 15px;
+    line-height: 200%;
+    height: 90%;
+    width: 10%;
+}
+
+
+}
+.font-heading{
+	font-size:80%;
+}
+}
+.fa{
+	padding:0;
+	border-radius: 50%;
+	font-size:15px;
+	line-height: 1.6em;
+	height:1.8em;
+	width:1.8em;
+	text-align:center;
+	border:1px solid black;
+	color:black;
+	display:inline-block;
+}
+.navbar{
+   background-color:  transparent;
+
+   border:none;
+   height:60px;
+}
+
+.navbar1{
+   background-color:  transparent;
+margin-top: -10px;
+   border:none;
+   height:110px;
+}
+nav.shrink{
+  background-color:rgba(0,0,0,0.5);
+  height:70px;
+  padding-top: 5px;
+  }
+
+
+  .navbar-logo{
+  font-size: 80px;
+  padding : 0px 0px 0px 80px;
+  color: @white;
+
+
+  }
+  nav.shrink>li>a
+  {
+  color:@white;
+  font-size:16px;
+  font-family : @heading-text;
+  padding-top:10px;
+  }
