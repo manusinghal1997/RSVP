@@ -129,7 +129,7 @@ src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
               <button type="button" class="mybutton btn-lg" data-dismiss="modal">Cancel</button>
               </div>
               <div class="col-sm-6 col-lg-6 col-md-6 col-xs-6">
-              <button type="submit" class="mybutton btn-lg">Submit</button>
+              <button type="submit" name="login" class="mybutton btn-lg">Submit</button>
               </div></div>
               </div>
                </form>
