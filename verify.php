@@ -5,7 +5,7 @@ if(isset($_POST['login']))
 {
   $email=$_POST["email"];
 $password=$_POST["password"];
-excho $email;
+echo $email;
 echo $password;
 
 $sql="select * from host where email='$email'";
