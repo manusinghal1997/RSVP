@@ -2,15 +2,19 @@
 require 'db.php';
 
 if(isset($_POST['login']))
-{$email=$_POST["email"];
+{
+  $email=$_POST["email"];
 $password=$_POST["password"];
+excho $email;
+echo $password;
 
 $sql="select * from host where email='$email'";
 $result=$conn->query($sql);
+
 if($result->num_rows==0)
 {
-        
-   header('Location:passmatch.php');
+        $message="Email id is not registered";
+   header("Location:passmatch.php?message=$message");
 }
 else
 {
@@ -19,7 +23,6 @@ else
         if($_POST['password']==$row["password"])
          {
           header('Location:dashboard.php');
-          exit;
         }
             else{
               $message="You have entered wrong passward";
