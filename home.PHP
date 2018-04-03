@@ -109,7 +109,7 @@ src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
          
         </div>
         <div class="modal-body">
-              <form method="post" action="verify.php?event_id=$event_id">
+              <form method="post" action="verify.php">
                 <div class="input-group">
                  
                   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
